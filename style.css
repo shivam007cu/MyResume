@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:"Lato";
+}
+html{
+	scroll-behavior:smooth;
+}
+.navbar-brand{
+    font-family: "Pacifico";
+    font-size: 35px;
+    color: lightcoral !important;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: "Roboto Condensed";
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.active .nav-link{
+    color: black !important;
+}
+.site-content{
+    background-image: url("Background-image.png");
+    background-size: cover;
+	height:47vw;
+}
+.site-title{
+    color: white;
+    font-family: Righteous;
+    font-size: 50px;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*Section-1*/
+.section-1{
+    text-align: center !important;
+    margin-bottom: 8%;
+}
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+.section-1 .card-text{
+    color: rgba(0,0,0,0.59);
+}
+
+/*section-2*/
+.section-2 .container-fluid{
+	background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: "Righteous";
+    width: 100%;
+    color: whitesmoke;
+}
+.section-2 .heading-2{
+    color: whitesmoke;
+}
+.section-2 p{
+    width: 80%;
+    font-family: "Ubuntu";
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+
+a.animated-button.gibson-one {
+	border: 2px solid #343A40;
+	color: #FFF;
+}
+a.animated-button.gibson-one:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.gibson-one:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}
+
+header{
+position:fixed;
+background-color:#DFDCDB;
+width:100%;
+z-index:1;
+}
+
+
+#leftt{
+	width:25%; 
+
+}
+.section-2,.section-8,.section-3,.section-4,.section-5{
+    background-image: url('https://ak8.picdn.net/shutterstock/videos/18592928/thumb/1.jpg');
+}
+.card{
+    box-shadow: 5px 7px #888888;
+}
